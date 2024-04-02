@@ -15,7 +15,10 @@
             </p>
             <p>
                 <label> COMMENTAIRE: </label>
-                <input type="text" name="com"/>
+                <input type="text" name="commentaire"/>
+            </p>
+            <p>
+                <input type="submit" value="Confirmer" name="btConfirmer"/>
             </p>
             
         </form>
