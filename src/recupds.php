@@ -5,6 +5,7 @@ $email = filter_input(INPUT_POST,'email',FILTER_SANITIZE_STRING);
 $age = filter_input(INPUT_POST,'age',FILTER_SANITIZE_NUMBER_INT,);
 $commentaire = filter_input(INPUT_POST,'commentaire',FILTER_SANITIZE_STRING);
 
+
 //verif Nom
 
 if(empty($nom)){
@@ -34,7 +35,8 @@ if(empty($age)){
 if(empty($commentaire)){
     echo "le commentaire est vide";
 }
-
+echo "Inscription valider \n <br/>";
+echo "\n <br/>";
 echo "| NAME : $nom |\n <br/>";
 echo "| EMAIL : $email  |\n <br/>";
 echo "| AGE : $age |\n <br/>";
